@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.*;
 
+//@Repository 등록
 
 public class MemoryMemberRepository implements MemberRepository {
 
