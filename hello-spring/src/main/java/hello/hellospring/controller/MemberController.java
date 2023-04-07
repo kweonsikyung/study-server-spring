@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 public class MemberController {
     private final MemberService memberService;
 
+    // DI : 생성자 주입 방식
     @Autowired
     public MemberController(MemberService memberService){
         this.memberService = memberService;
